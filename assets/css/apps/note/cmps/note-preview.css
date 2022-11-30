@@ -1,0 +1,23 @@
+.note-preview {
+    background-color: var(--main-bg-color1);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.43);
+}
+
+.not-preview .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin: 0 8px;
+    transition: 0.15s;
+}
+
+.note-preview:hover {
+    cursor: pointer;
+}
